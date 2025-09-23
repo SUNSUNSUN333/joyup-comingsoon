@@ -13,13 +13,27 @@
       padding: 20px;
     }
 
-    h1, h2 {
+    /* トップの大見出し */
+    .main-title {
+      font-size: 1.8em;
+      font-weight: bold;
+      border-left: 5px solid #4CAF50;
+      padding-left: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    /* セクション見出し */
+    h2 {
+      font-size: 1.3em;
+      font-weight: bold;
       border-bottom: 3px solid #4CAF50;
       padding-bottom: 6px;
       margin-top: 40px;
-      background-color: transparent; /* ← 背景色を消して灰色に溶け込ませる */
+      background-color: transparent;
     }
 
+    /* セクション内容のボックス */
     .section {
       background-color: #fff;
       border-radius: 8px;
@@ -42,7 +56,7 @@
   </style>
 </head>
 <body>
-  <h1>プライバシーポリシー</h1>
+  <div class="main-title">プライバシーポリシー</div>
 
   <div class="section">
     <p>
