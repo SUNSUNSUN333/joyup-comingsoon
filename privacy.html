@@ -6,32 +6,66 @@
   <title>プライバシーポリシー | じょいあっぷ</title>
   <style>
     body {
-      font-family: sans-serif;
-      line-height: 1.6;
-      background-color: #f7f7f7;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
       margin: 0;
-      padding: 2rem;
-    }
-    h1, h2 {
+      padding: 2em;
+      line-height: 1.7;
       color: #222;
     }
-    section {
+
+    .section {
       background-color: #fff;
       border-radius: 10px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5em 1.8em;
+      margin-bottom: 2em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+
+    .section-title {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #111;
+      margin-bottom: 0.7em;
+      border-bottom: 3px solid #4CAF50;
+      padding-bottom: 0.3em;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    ul li {
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1em;
+      }
     }
   </style>
 </head>
 <body>
-  <section>
-    <h1>プライバシーポリシー</h1>
-    <p>株式会社サンサン（以下、「当社」といいます）は、当社が提供するマッチングサービス「じょいあっぷ」（以下、「本サービス」といいます）において、ユーザーの個人情報を適切に取り扱うため、以下のとおりプライバシーポリシーを定めます。</p>
-  </section>
 
-  <section>
-    <h2>1. 取得する情報</h2>
+  <div class="section">
+    <h2 class="section-title">プライバシーポリシー</h2>
+    <p>
+      株式会社サンサン（以下、「当社」といいます）は、当社が提供するマッチングサービス「じょいあっぷ」（以下、「本サービス」といいます）において、ユーザーの個人情報を適切に取り扱うため、以下のとおりプライバシーポリシーを定めます。
+    </p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">1. 取得する情報</h2>
     <ul>
       <li>氏名、住所、電話番号、メールアドレスなどの連絡先情報</li>
       <li>職歴、スキル、保有資格、カレンダー登録などのプロフィール情報</li>
@@ -39,10 +73,10 @@
       <li>Stripeなど外部決済サービスとの連携情報</li>
       <li>その他、ユーザーから提供された一切の情報</li>
     </ul>
-  </section>
+  </div>
 
-  <section>
-    <h2>2. 利用目的</h2>
+  <div class="section">
+    <h2 class="section-title">2. 利用目的</h2>
     <ul>
       <li>本サービスの提供・運営のため</li>
       <li>本人確認および本人との連絡のため</li>
@@ -50,38 +84,43 @@
       <li>法令遵守・不正防止・安全性確保のため</li>
       <li>利用状況の分析、サービス改善のため</li>
     </ul>
-  </section>
+  </div>
 
-  <section>
-    <h2>3. 第三者提供</h2>
+  <div class="section">
+    <h2 class="section-title">3. 第三者提供</h2>
     <p>当社は、以下の場合を除き、あらかじめユーザーの同意を得ることなく、個人情報を第三者に提供することはありません。</p>
     <ul>
       <li>法令に基づく場合</li>
       <li>人の生命、身体または財産の保護のために必要な場合</li>
       <li>公衆衛生の向上または児童の健全育成の推進のために必要な場合</li>
-      <li>国の機関または地方公共団体等に協力する必要がある場合</li>
+      <li>国の機関もしくは地方公共団体等に協力する必要がある場合</li>
     </ul>
-  </section>
+  </div>
 
-  <section>
-    <h2>4. セキュリティ対策</h2>
-    <p>当社は、個人情報への不正アクセス、漏洩、滅失、改ざんなどを防止するため、SSL暗号化通信の採用やアクセス権限の管理など、技術的・組織的な適切なセキュリティ対策を講じます。</p>
-  </section>
-
-  <section>
-    <h2>5. 開示・訂正・削除等の請求</h2>
-    <p>ユーザーは、当社に対して自身の個人情報の開示、訂正、追加、削除、利用停止等を求めることができます。ご希望の場合は、下記お問い合わせ先までご連絡ください。</p>
-  </section>
-
-  <section>
-    <h2>6. お問い合わせ</h2>
+  <div class="section">
+    <h2 class="section-title">4. セキュリティ対策</h2>
     <p>
-      事業者名：株式会社サンサン<br>
-      所在地：〒206-0802 東京都稲城市東長沼1339 サンリバー6-303<br>
-      電話番号：042-379-8623<br>
-      メールアドレス：support@joy-up.com
+      当社は、個人情報への不正アクセス、漏洩、滅失、改ざんなどを防止するため、SSL暗号化通信の採用やアクセス権限の管理など、技術的・組織的な適切なセキュリティ対策を講じます。
     </p>
-    <p>※本ポリシーは、法令の改正やサービス内容の変更に応じて、予告なく改定されることがあります。</p>
-  </section>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">5. 開示・訂正・削除等の請求</h2>
+    <p>
+      ユーザーは、当社に対して自身の個人情報の開示、訂正、追加、削除、利用停止等を求めることができます。ご希望の場合は、下記お問い合わせ先までご連絡ください。
+    </p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">6. お問い合わせ</h2>
+    <ul>
+      <li>事業者名：株式会社サンサン</li>
+      <li>所在地：〒206-0802 東京都稲城市東長沼1339 サンリバー6-303</li>
+      <li>電話番号：042-379-8623</li>
+      <li>メールアドレス：support@joy-up.com</li>
+    </ul>
+    <p>本ポリシーは、法令の改正やサービス内容の変更に応じて、予告なく改定されることがあります。</p>
+  </div>
+
 </body>
 </html>
